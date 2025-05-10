@@ -79,7 +79,8 @@ input:focus {
   color: #fff;
   font-weight: 700;
   border: 1px solid #fff;
-  font-size: 16px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
   padding: 6px 0;
   cursor: pointer;
 }
@@ -153,7 +154,6 @@ input:focus {
 .search-form__fieldset {
   border: none;
   width: 212px;
-  height: 54px;
 }
 
 .search-form__fieldset-title {
@@ -205,9 +205,10 @@ input:focus {
 }
 
 .result__video {
-  width: 711px;
+  width: 100%;
   height: 386px;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__details {
@@ -244,6 +245,8 @@ input:focus {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card-thumbnail img {
